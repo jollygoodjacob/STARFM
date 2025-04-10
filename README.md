@@ -48,6 +48,8 @@ It assumes that spectral change in coarse resolution over time also applies loca
 - A synthetic high-resolution image at time t2: F_t2
 
 ### Credit / References
-The STARFM algorithm used herein was modified from scripts developed by Mileva et al. 2018.
+The STARFM algorithm used herein was modified from scripts developed by Mileva et al. 2018 for use in Python. The STARFM algorithm, first written in C, was published by Guo et al. 2006.
+
+F. Gao, J. Masek, M. Schwaller, F. Hall. On the blending of the Landsat and MODIS surface reflectance : Predicting daily Landsat surface reflectance. IEEE Transactions on Geoscience and Remote Sensing, 44 (8) (2006), pp. 2207-2218
 
 Mileva, N., Mecklenburg, S. & Gascon, F. (2018). New tool for spatiotemporal image fusion in remote sensing - a case study approach using Sentinel-2 and Sentinel-3 data. In Bruzzone, L. & Bovolo, F. (Eds.), SPIE Proceedings Vol. 10789: Image and Signal Processing for Remote Sensing XXIV. Berlin, Germany: International Society for Optics and Photonics. doi: 10.1117/12.2327091; https://doi.org/10.1117/12.2327091
