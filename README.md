@@ -3,8 +3,9 @@ Spatiotemporal fusion methods, compiled and modified for the IoT4Ag Thrust 3 Dat
 
 ## License
 
-    Spatiotemporal fusion methods, compiled and modified for the IoT4Ag Thrust 3 Data Fusion project at UCM
-    Copyright (C) 2025  Jacob Nesslage
+    Spatiotemporal fusion methods, compiled and modified for the IoT4Ag Thrust 3 Data Fusion project at UCM in Python
+    Copyright (C) 2025 Jacob Nesslage (for UBDF, FSDAR, and Fit-FC)
+    Copyright (C) 2025 Nikolina Mileva, modified by Jacob Nesslage (for STARFM)
     
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
