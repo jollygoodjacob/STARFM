@@ -15,7 +15,7 @@ STARFM predicts what a fine-resolution image would look like on a date where onl
 It assumes that spectral change in coarse resolution over time also applies locally at finer scale.
 
 ### Processing Steps
-1. Input data:
+#### 1. Input data:
 
 - F_t1: fine-resolution image at time t1 
 
@@ -23,8 +23,8 @@ It assumes that spectral change in coarse resolution over time also applies loca
   
 - C_t2: coarse-resolution image at time t2 (prediction date)
 
-2. Calculate change in coarse resolution
-3. Loop over fine-resolution pixels: For each fine-resolution pixel, the algorithm:
+#### 2. Calculate change in coarse resolution
+#### 3. Loop over fine-resolution pixels: For each fine-resolution pixel, the algorithm:
 
 - Finds a window of nearby pixels in the fine-resolution image
 
@@ -38,11 +38,11 @@ It assumes that spectral change in coarse resolution over time also applies loca
 
   - Temporal change magnitude
 
-4. Prediction:
+#### 4. Prediction:
 - Apply weighted average of reflectance changes
-
 - Add that change to the fine-resolution pixel at t1:
-6. Output:
+- 
+#### 5. Output:
 - A synthetic high-resolution image at time t2: F_t2
 
 ### Credit / References
