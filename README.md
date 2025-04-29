@@ -41,7 +41,7 @@ It assumes that spectral change in coarse resolution over time also applies loca
 #### 4. Prediction:
 - Apply weighted average of reflectance changes
 - Add that change to the fine-resolution pixel at t1:
-- 
+  
 #### 5. Output:
 - A synthetic high-resolution image at time t2: F_t2
 
