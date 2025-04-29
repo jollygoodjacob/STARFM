@@ -1,7 +1,5 @@
-# Spatiotemporal Fusion (STF) Project
-Spatiotemporal fusion methods, compiled and modified for the IoT4Ag Thrust 3 Data Fusion project at UCM
-    
-## STARFM
+
+# STARFM
 
 The STARFM (Spatial and Temporal Adaptive Reflectance Fusion Model) algorithm is widely used to generate high-resolution, high-frequency remote sensing data by fusing low-resolution, high-temporal and high-resolution, low-temporal imagery to produce a synthetic image.
 
@@ -48,7 +46,7 @@ It assumes that spectral change in coarse resolution over time also applies loca
 - A synthetic high-resolution image at time t2: F_t2
 
 ### Credit / References
-The STARFM algorithm used herein was modified from scripts developed by Mileva et al. 2018 for use in Python. The STARFM algorithm, first written in C, was published by Guo et al. 2006.
+The STARFM algorithm used herein was modified from scripts developed by Mileva et al. 2018 for use in Python with Planet and UAV imagery. The STARFM algorithm, first written in C, was published by Guo et al. 2006.
 
 F. Gao, J. Masek, M. Schwaller, F. Hall. On the blending of the Landsat and MODIS surface reflectance : Predicting daily Landsat surface reflectance. IEEE Transactions on Geoscience and Remote Sensing, 44 (8) (2006), pp. 2207-2218
 
